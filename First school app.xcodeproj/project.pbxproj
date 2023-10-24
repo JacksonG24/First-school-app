@@ -7,18 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A849E2C2ADEDEBF0033BD83 /* Spicy food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A849E2B2ADEDEBF0033BD83 /* Spicy food.swift */; };
+		0A849E2E2ADEE6E70033BD83 /* Salty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A849E2D2ADEE6E70033BD83 /* Salty.swift */; };
+		0A849E302ADEE6F00033BD83 /* Sweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A849E2F2ADEE6F00033BD83 /* Sweet.swift */; };
+		0A849E322ADEE6FA0033BD83 /* Sweet and salty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A849E312ADEE6FA0033BD83 /* Sweet and salty.swift */; };
+		0A849E342ADEE7060033BD83 /* Sweet and spicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A849E332ADEE7060033BD83 /* Sweet and spicy.swift */; };
+		0A849E362ADEE7140033BD83 /* Spicy and salty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A849E352ADEE7140033BD83 /* Spicy and salty.swift */; };
+		0A849E382ADEE7200033BD83 /* Sweet, salty, spicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A849E372ADEE7200033BD83 /* Sweet, salty, spicy.swift */; };
 		0ABBF9FE2AD9C12A00012959 /* First_school_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABBF9FD2AD9C12A00012959 /* First_school_appApp.swift */; };
 		0ABBFA002AD9C12A00012959 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABBF9FF2AD9C12A00012959 /* ContentView.swift */; };
 		0ABBFA022AD9C12C00012959 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ABBFA012AD9C12C00012959 /* Assets.xcassets */; };
 		0ABBFA052AD9C12C00012959 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ABBFA042AD9C12C00012959 /* Preview Assets.xcassets */; };
+		0ABBFA0C2AD9C13A00012959 /* Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABBFA0B2AD9C13A00012959 /* Display.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A849E2B2ADEDEBF0033BD83 /* Spicy food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Spicy food.swift"; sourceTree = "<group>"; };
+		0A849E2D2ADEE6E70033BD83 /* Salty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Salty.swift; sourceTree = "<group>"; };
+		0A849E2F2ADEE6F00033BD83 /* Sweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sweet.swift; sourceTree = "<group>"; };
+		0A849E312ADEE6FA0033BD83 /* Sweet and salty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sweet and salty.swift"; sourceTree = "<group>"; };
+		0A849E332ADEE7060033BD83 /* Sweet and spicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sweet and spicy.swift"; sourceTree = "<group>"; };
+		0A849E352ADEE7140033BD83 /* Spicy and salty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Spicy and salty.swift"; sourceTree = "<group>"; };
+		0A849E372ADEE7200033BD83 /* Sweet, salty, spicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sweet, salty, spicy.swift"; sourceTree = "<group>"; };
 		0ABBF9FA2AD9C12A00012959 /* First school app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "First school app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ABBF9FD2AD9C12A00012959 /* First_school_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = First_school_appApp.swift; sourceTree = "<group>"; };
 		0ABBF9FF2AD9C12A00012959 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0ABBFA012AD9C12C00012959 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0ABBFA042AD9C12C00012959 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0ABBFA0B2AD9C13A00012959 /* Display.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Display.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +69,14 @@
 			children = (
 				0ABBF9FD2AD9C12A00012959 /* First_school_appApp.swift */,
 				0ABBF9FF2AD9C12A00012959 /* ContentView.swift */,
+				0ABBFA0B2AD9C13A00012959 /* Display.swift */,
+				0A849E2B2ADEDEBF0033BD83 /* Spicy food.swift */,
+				0A849E2D2ADEE6E70033BD83 /* Salty.swift */,
+				0A849E2F2ADEE6F00033BD83 /* Sweet.swift */,
+				0A849E312ADEE6FA0033BD83 /* Sweet and salty.swift */,
+				0A849E332ADEE7060033BD83 /* Sweet and spicy.swift */,
+				0A849E352ADEE7140033BD83 /* Spicy and salty.swift */,
+				0A849E372ADEE7200033BD83 /* Sweet, salty, spicy.swift */,
 				0ABBFA012AD9C12C00012959 /* Assets.xcassets */,
 				0ABBFA032AD9C12C00012959 /* Preview Content */,
 			);
@@ -137,8 +161,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A849E302ADEE6F00033BD83 /* Sweet.swift in Sources */,
 				0ABBFA002AD9C12A00012959 /* ContentView.swift in Sources */,
+				0ABBFA0C2AD9C13A00012959 /* Display.swift in Sources */,
+				0A849E342ADEE7060033BD83 /* Sweet and spicy.swift in Sources */,
 				0ABBF9FE2AD9C12A00012959 /* First_school_appApp.swift in Sources */,
+				0A849E2C2ADEDEBF0033BD83 /* Spicy food.swift in Sources */,
+				0A849E2E2ADEE6E70033BD83 /* Salty.swift in Sources */,
+				0A849E382ADEE7200033BD83 /* Sweet, salty, spicy.swift in Sources */,
+				0A849E322ADEE6FA0033BD83 /* Sweet and salty.swift in Sources */,
+				0A849E362ADEE7140033BD83 /* Spicy and salty.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

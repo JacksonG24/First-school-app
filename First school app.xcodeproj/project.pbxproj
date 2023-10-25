@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A1AE5752AE81779007D8F40 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1AE5742AE81779007D8F40 /* ViewModel.swift */; };
 		0A849E2C2ADEDEBF0033BD83 /* Spicy food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A849E2B2ADEDEBF0033BD83 /* Spicy food.swift */; };
 		0A849E2E2ADEE6E70033BD83 /* Salty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A849E2D2ADEE6E70033BD83 /* Salty.swift */; };
 		0A849E302ADEE6F00033BD83 /* Sweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A849E2F2ADEE6F00033BD83 /* Sweet.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A1AE5742AE81779007D8F40 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		0A849E2B2ADEDEBF0033BD83 /* Spicy food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Spicy food.swift"; sourceTree = "<group>"; };
 		0A849E2D2ADEE6E70033BD83 /* Salty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Salty.swift; sourceTree = "<group>"; };
 		0A849E2F2ADEE6F00033BD83 /* Sweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sweet.swift; sourceTree = "<group>"; };
@@ -73,10 +75,11 @@
 				0A849E2B2ADEDEBF0033BD83 /* Spicy food.swift */,
 				0A849E2D2ADEE6E70033BD83 /* Salty.swift */,
 				0A849E2F2ADEE6F00033BD83 /* Sweet.swift */,
-				0A849E312ADEE6FA0033BD83 /* Sweet and salty.swift */,
 				0A849E332ADEE7060033BD83 /* Sweet and spicy.swift */,
+				0A849E312ADEE6FA0033BD83 /* Sweet and salty.swift */,
 				0A849E352ADEE7140033BD83 /* Spicy and salty.swift */,
 				0A849E372ADEE7200033BD83 /* Sweet, salty, spicy.swift */,
+				0A1AE5742AE81779007D8F40 /* ViewModel.swift */,
 				0ABBFA012AD9C12C00012959 /* Assets.xcassets */,
 				0ABBFA032AD9C12C00012959 /* Preview Content */,
 			);
@@ -164,6 +167,7 @@
 				0A849E302ADEE6F00033BD83 /* Sweet.swift in Sources */,
 				0ABBFA002AD9C12A00012959 /* ContentView.swift in Sources */,
 				0ABBFA0C2AD9C13A00012959 /* Display.swift in Sources */,
+				0A1AE5752AE81779007D8F40 /* ViewModel.swift in Sources */,
 				0A849E342ADEE7060033BD83 /* Sweet and spicy.swift in Sources */,
 				0ABBF9FE2AD9C12A00012959 /* First_school_appApp.swift in Sources */,
 				0A849E2C2ADEDEBF0033BD83 /* Spicy food.swift in Sources */,

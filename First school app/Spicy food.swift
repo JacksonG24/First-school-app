@@ -8,7 +8,12 @@
 import SwiftUI
 
 struct Spicy_food: View {
+   
+    
+    
     var body: some View {
+     
+        
         VStack{
             HStack (alignment: .top){
                 Image("Chicken")

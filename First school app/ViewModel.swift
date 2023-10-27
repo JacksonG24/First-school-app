@@ -13,8 +13,8 @@ struct ViewModel {
         var screen: any View
         if spicy {
             if salty {
-                if sweet { screen =  Sweet__salty__spicy() } else {
-                    screen = Sweet_and_salty() }
+                if sweet { screen =  Sweet__salty__spicy() }else {
+                    screen = SwiftUIView() }
             } else if sweet {
                 screen = Sweet_and_spicy()
             } else { screen = Spicy_food() }
@@ -29,8 +29,10 @@ struct ViewModel {
     }
     
     
-   
+        
+        
     
+   
     
     
 }

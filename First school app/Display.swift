@@ -19,13 +19,16 @@ struct nav_link_and_view: View {
           
             
             ZStack {
-                Rectangle()
-                    .fill(Color.gray).ignoresSafeArea()
+               Background()
                 VStack{
                     Text(constTitle)
                         .font(.title).bold()
                         .multilineTextAlignment(.center)
-                        .padding()
+                        .frame(width: 370, height: 50)
+                        .background(Color.black)
+                        .cornerRadius(20)
+                        .foregroundColor(Color.white)
+                    
                         .padding()
                         .padding()
                     VStack{
@@ -38,7 +41,7 @@ struct nav_link_and_view: View {
                             Text("No Thank You").tag(false)
                         }
                                 .pickerStyle(SegmentedPickerStyle())
-                                .cornerRadius(90)
+                                .cornerRadius(80)
                     }
                     .frame(width: 370, height: 100)
                     .background(Color.red)
@@ -53,7 +56,7 @@ struct nav_link_and_view: View {
                             Text("No Thank You").tag(false)
                         }
                                 .pickerStyle(SegmentedPickerStyle())
-                                .cornerRadius(90)
+                                .cornerRadius(80)
                     }
                     .frame(width: 370, height: 100)
                     .background(Color.purple)
@@ -70,7 +73,7 @@ struct nav_link_and_view: View {
                             Text("No Thank You").tag(false)
                         }
                                 .pickerStyle(SegmentedPickerStyle())
-                                .cornerRadius(90)
+                                .cornerRadius(80)
                     }
                     .frame(width: 370, height: 100)
                     .background(Color.yellow)
@@ -109,20 +112,7 @@ struct nav_link_and_view: View {
     }
 }
 
-struct MyOtherScreen: View{
-    
-    @Environment(\.presentationMode) var presentationMode
-    
-    var body: some View {
-        ZStack{
-            Color.gray.edgesIgnoringSafeArea(.all)
-                .navigationTitle("Some Recipe Ideas!")
-               // .navigationBarHidden(true)
-          
-          
-        }
-    }
-}
+
 
 struct nav_link_and_view_Previews: PreviewProvider {
     static var previews: some View {

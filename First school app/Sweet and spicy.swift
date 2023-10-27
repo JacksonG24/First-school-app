@@ -16,7 +16,7 @@ struct Sweet_and_spicy: View {
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 200, height: 130 )
             
-                Text("Pork \n \n")
+                Text("Spice-Rubbed \nPork \n \nis a great dish when mixed with peach salsa")
                 Image(systemName: "dollarsign")
                 Image(systemName: "dollarsign")
                 

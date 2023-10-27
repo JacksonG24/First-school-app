@@ -32,7 +32,7 @@ struct nav_link_and_view: View {
                         .padding()
                         .padding()
                     VStack{
-                        
+                 
                         Text("Spicy")
                             .font(.title)
                         Picker(selection: $Spicy, label:
